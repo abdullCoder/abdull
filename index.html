@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="messages.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/logo/icon.PNG" type="image/x-icon" />
+    <title>Mukhtar Abdurrahman</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">ABDULL</a></div>
+
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="skills.html">Skills</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Abdurrahman<br />a</span> Web Developer and <br />
+            Programmer. <br />
+            Content Writer, Article Writer, <br />
+            Blog Post, and also A <span> Business Man.</span>
+          </h1>
+          <p class="description"></p>
+          <div class="action__btns">
+            <a href="skills.html">
+              <button class="Contact">Skills</button>
+            </a>
+            <a href="resume.html">
+              <button class="Resume">Resume</button>
+            </a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/Abdurrahman Mukhtar.JPG" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+    <div class="message">
+      <h5>SEND ME A MESSAGE</h5>
+      <br />
+      <form
+        class="message-form"
+        action="https://formspree.io/f/mpzgdbqo"
+        method="post"
+      >
+        <input
+          class="in"
+          type="text"
+          name="message-name"
+          id="subject"
+          placeholder="Enter Your Full Name"
+          required
+        />
+        <br /><br />
+        <input
+          class="in"
+          type="text"
+          name="message-subject"
+          id="subject"
+          placeholder="Message Subject"
+          required
+        />
+        <br /><br />
+        <input
+          class="mail"
+          type="email"
+          name="email"
+          placeholder="example@gmail.com"
+          required
+        /><br /><br />
+        <textarea
+          class="t-area"
+          name="message-body"
+          placeholder="Write Your Message Here ..."
+          id="message-body"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+        <br />
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <footer class="footer">&copy; 2023 Developed by Mukhtar Abdurrahman Muhammad</footer>
+  </body>
+</html>
